@@ -9,7 +9,7 @@ Issue referenced here:
 - https://gitlab.gnome.org/GNOME/mutter/-/issues/1942
 
 
-Amazing solution, found on Nvidia forums, created by devyn.cairns
+_Amazing_ solution, found on Nvidia forums, created by **devyn.cairns**
 
 https://forums.developer.nvidia.com/t/trouble-suspending-with-510-39-01-linux-5-16-0-freezing-of-tasks-failed-after-20-009-seconds/200933/12
 
