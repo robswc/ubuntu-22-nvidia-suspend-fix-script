@@ -21,11 +21,12 @@ The solution is to manually suspend gnome-shell using the STOP signal before the
 
 # The following steps helped solve the issue for me
 
-### Create the following files
+### Create the following files (and chmod them)
 
 
 ```
 sudo vim /usr/local/bin/suspend-gnome-shell.sh
+chmod +x /usr/local/bin/suspend-gnome-shell.sh
 ```
 
 
