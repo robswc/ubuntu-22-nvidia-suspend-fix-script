@@ -57,6 +57,8 @@ Before=nvidia-hibernate.service
 
 [Service]
 Type=oneshot
+#some machines could run into race condition / black screen / freezed screen. add delay to successfully return after suspend/hibernate.
+ExecStartPre=/bin/sleep 3
 ExecStart=/usr/local/bin/suspend-gnome-shell.sh suspend
 
 [Install]
@@ -77,6 +79,8 @@ After=nvidia-resume.service
 
 [Service]
 Type=oneshot
+#some machines could run into race condition / black screen / freezed screen. add delay to successfully return after suspend/hibernate.
+ExecStartPre=/bin/sleep 3
 ExecStart=/usr/local/bin/suspend-gnome-shell.sh resume
 
 [Install]
